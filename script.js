@@ -29,3 +29,10 @@ for (let i = 0; i < svgs.length; i++) {
 
 // five
 document.querySelector("#query .bold").style.color = "#7C9EA6";
+
+// six
+document.querySelector(".content_list li:first-of-type").textContent = "This is a new list item text";
+document.querySelectorAll(".content_list li")[2].innerHTML += "<strong> Sam Sengupta</strong>";
+
+// seven
+document.querySelector("#remove a").removeAttribute("hidden");
